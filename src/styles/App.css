@@ -1,5 +1,6 @@
 #center {
   color: white;
+  width: 100%;
 }
 
 #containerImg {
@@ -7,7 +8,6 @@
   justify-content: center;
   align-items: center;
   background-image: url(../images/Rectangle.png);
-  background-repeat: no-repeat;
   width: 100%;
   height: 50vh;
 }
