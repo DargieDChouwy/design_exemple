@@ -1,9 +1,9 @@
 # design_exemple
 Test project for pixelfield.
 
-Made with ReactJS, Create-react-app and Css.
+Made with ReactJS, Create-react-app and Css. Build with components and props.
 
-Build with components and props.
+You can check it there : https://quirky-tesla-4b8d53.netlify.com/
 
 ## Installation
 
