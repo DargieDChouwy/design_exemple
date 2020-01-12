@@ -1,16 +1,17 @@
 import React from 'react';
+import Logo from '../images/Vector.png'
 
 class navbar extends React.Component {
     state = {  }
     render() { 
         return ( 
         <nav id="mainNav">
-            <ul>
-            <div id="navImg"></div>
-            <li><a href="#">{this.props.textOne}</a></li>
-            <li><a href="#">{this.props.textSecond}</a></li>
+            <ul id="ulnav">
+           <img src={Logo} alt="Logo" id="navImg"></img>
+            <li id="linav"><a href="#">{this.props.textOne}</a></li>
+            <li id="linav"><a href="#">{this.props.textSecond}</a></li>
             <div id="dropdown">
-                    <li>About the firm 
+                    <li id="linav">About the firm 
                         <i id="fa fa-caret-down"></i>
                     </li>
                     <div id="dropdown-content">
@@ -19,7 +20,7 @@ class navbar extends React.Component {
                         <a href="#">Link 3</a>
                     </div>
                 </div>
-            <li><a href="#">{this.props.textFour}</a></li>
+            <li id="linav"><a href="#">{this.props.textFour}</a></li>
             </ul>
             <div id="navRight">
                 <div id="dropdown">
