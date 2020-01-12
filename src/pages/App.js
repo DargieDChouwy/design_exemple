@@ -1,24 +1,16 @@
 import React from 'react';
-import logo from '../logo.svg';
 import '../styles/App.css';
+import About from '../components/about'
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <About
+      title="About Exemplar"
+      text="We're a real estate technology company whose goal is to empower investors with direct access to fully vetted, institunional-grade real estate investments faster and smarter than ever before."
+      textLeft="Our Investment Team brings over 20 billion CZK in real estate transaction experience from leading firms like Blackstone and Goldman Sachs - while our engineering and products teams hail form leading tech companies like Dropbox and Square."
+      textRight="With in-depth experience in real estate, combined with cutting-edge technology and close local operator partnerships, Exemplar brings you access to institutional-grade investments with greater transparency and lower fees. Exemplar brings you access to institutional-grade investments with greater transparency and lower fees. "
+      />
     </div>
   );
 }
